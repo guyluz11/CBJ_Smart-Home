@@ -50,6 +50,7 @@ enum CbjDeviceTypes {
     computerApp = 9;
     browserApp = 10;
     smartComputer = 11;
+    smart_camera = 12;
 }
 
 enum CbjDeviceActions {
@@ -67,6 +68,8 @@ enum CbjDeviceActions {
     shutdown =11;  // Shut down the computer
     itIsFalse = 12;
     itIsTrue = 13;
+    startVideoStream = 14;
+    motionDetected = 15;
 }
 
 

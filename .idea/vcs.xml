@@ -4,6 +4,7 @@
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/cbj_app" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/cbj_hub" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cbj_integrations_controller" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/cbj_remote-pipes" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/cbj_smart-device" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/remote_pipes_routing" vcs="Git" />

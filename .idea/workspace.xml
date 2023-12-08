@@ -4,88 +4,14 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dda0a42f-ac78-4d03-8b58-4d5dc9aa01fb" name="Default Changelist" comment="Changed proto script to use entity instead of device. Added some new devices types and some new vendors">
-      <change afterPath="$PROJECT_DIR$/cbj_integrations_controller" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cbj_smart_device_flutter" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/cbj_smart-home.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cbj_smart-home.iml" afterDir="false" />
+    <list default="true" id="dda0a42f-ac78-4d03-8b58-4d5dc9aa01fb" name="Default Changelist" comment="Adding cbj_integrations_controller and cbj_smart_device_flutter">
+      <change afterPath="$PROJECT_DIR$/cbj_remote-pipes/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cbj_remote-pipes/nginx.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProtoFiles/proto_script.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ProtoFiles/proto_script.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProtoFiles/protos/cbj_smart_device_server.proto" beforeDir="false" afterPath="$PROJECT_DIR$/ProtoFiles/protos/cbj_smart_device_server.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_app" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_app" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_app/lib/domain/security_bear/i_security_bear_connection_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_app/lib/domain/security_bear/i_security_bear_connection_repository.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_app/lib/domain/software_info/software_info_entity.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_app/lib/domain/software_info/software_info_entity.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_app/lib/infrastructure/core/gen/security_bear/client/protoc_as_dart/security_bear_connections.pb.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_app/lib/infrastructure/core/gen/security_bear/client/protoc_as_dart/security_bear_connections.pbenum.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_app/lib/infrastructure/core/gen/security_bear/client/protoc_as_dart/security_bear_connections.pbgrpc.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_app/lib/infrastructure/core/gen/security_bear/client/protoc_as_dart/security_bear_connections.pbjson.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_app/lib/infrastructure/core/gen/security_bear/proto_gen_date.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_app/lib/infrastructure/security_bear_client/security_bear_connection_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_app/lib/infrastructure/security_bear_client/security_bear_connection_repository.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_app/lib/infrastructure/security_bear_client/security_bear_server_client.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_app/lib/infrastructure/security_bear_client/security_bear_server_client.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_app/lib/infrastructure/software_info/software_info_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_app/lib/infrastructure/software_info/software_info_repository.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_app/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_hub" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_hub" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_hub/bin/cbj_hub.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_hub/bin/cbj_hub.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_hub/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_hub/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/aioesphomeapi/proto_gen_date.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/aioesphomeapi/proto_gen_date.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/aioesphomeapi/protoc_as_dart/aioesphomeapi/api.pb.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/aioesphomeapi/protoc_as_dart/aioesphomeapi/api.pb.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/aioesphomeapi/protoc_as_dart/aioesphomeapi/api.pbenum.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/aioesphomeapi/protoc_as_dart/aioesphomeapi/api.pbenum.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/aioesphomeapi/protoc_as_dart/aioesphomeapi/api.pbjson.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/aioesphomeapi/protoc_as_dart/aioesphomeapi/api.pbjson.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/aioesphomeapi/protoc_as_dart/aioesphomeapi/api.pbserver.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/aioesphomeapi/protoc_as_dart/aioesphomeapi/api.pbserver.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/aioesphomeapi/protoc_as_dart/aioesphomeapi/api_options.pb.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/aioesphomeapi/protoc_as_dart/aioesphomeapi/api_options.pb.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/aioesphomeapi/protoc_as_dart/aioesphomeapi/api_options.pbenum.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/aioesphomeapi/protoc_as_dart/aioesphomeapi/api_options.pbenum.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/aioesphomeapi/protoc_as_dart/aioesphomeapi/api_options.pbjson.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/aioesphomeapi/protoc_as_dart/aioesphomeapi/api_options.pbjson.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/aioesphomeapi/protoc_as_dart/aioesphomeapi/api_options.pbserver.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/aioesphomeapi/protoc_as_dart/aioesphomeapi/api_options.pbserver.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/cbj_app_server/proto_gen_date.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/cbj_app_server/proto_gen_date.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/cbj_app_server/protoc_as_dart/cbj_app_connections.pb.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/cbj_app_server/protoc_as_dart/cbj_app_connections.pb.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/cbj_app_server/protoc_as_dart/cbj_app_connections.pbenum.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/cbj_app_server/protoc_as_dart/cbj_app_connections.pbenum.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/cbj_app_server/protoc_as_dart/cbj_app_connections.pbgrpc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/cbj_app_server/protoc_as_dart/cbj_app_connections.pbgrpc.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/cbj_app_server/protoc_as_dart/cbj_app_connections.pbjson.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/cbj_app_server/protoc_as_dart/cbj_app_connections.pbjson.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/cbj_hub_server/proto_gen_date.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/cbj_hub_server/proto_gen_date.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/cbj_hub_server/protoc_as_dart/cbj_hub_server.pb.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/cbj_hub_server/protoc_as_dart/cbj_hub_server.pb.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/cbj_hub_server/protoc_as_dart/cbj_hub_server.pbenum.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/cbj_hub_server/protoc_as_dart/cbj_hub_server.pbenum.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/cbj_hub_server/protoc_as_dart/cbj_hub_server.pbgrpc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/cbj_hub_server/protoc_as_dart/cbj_hub_server.pbgrpc.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/cbj_hub_server/protoc_as_dart/cbj_hub_server.pbjson.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/cbj_hub_server/protoc_as_dart/cbj_hub_server.pbjson.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/cbj_smart_device_server/proto_gen_date.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/cbj_smart_device_server/proto_gen_date.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/cbj_smart_device_server/protoc_as_dart/cbj_smart_device_server.pb.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/cbj_smart_device_server/protoc_as_dart/cbj_smart_device_server.pb.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/cbj_smart_device_server/protoc_as_dart/cbj_smart_device_server.pbenum.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/cbj_smart_device_server/protoc_as_dart/cbj_smart_device_server.pbenum.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/cbj_smart_device_server/protoc_as_dart/cbj_smart_device_server.pbgrpc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/cbj_smart_device_server/protoc_as_dart/cbj_smart_device_server.pbgrpc.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/cbj_smart_device_server/protoc_as_dart/cbj_smart_device_server.pbjson.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/gen/cbj_smart_device_server/protoc_as_dart/cbj_smart_device_server.pbjson.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/pubspec.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cbj_remote-pipes" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_remote-pipes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_remote-pipes/lib/infrastructure/gen/cbj_hub_server/proto_gen_date.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_remote-pipes/lib/infrastructure/gen/cbj_hub_server/proto_gen_date.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_remote-pipes/lib/infrastructure/gen/cbj_hub_server/protoc_as_dart/cbj_hub_server.pb.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_remote-pipes/lib/infrastructure/gen/cbj_hub_server/protoc_as_dart/cbj_hub_server.pb.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_remote-pipes/lib/infrastructure/gen/cbj_hub_server/protoc_as_dart/cbj_hub_server.pbenum.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_remote-pipes/lib/infrastructure/gen/cbj_hub_server/protoc_as_dart/cbj_hub_server.pbenum.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_remote-pipes/lib/infrastructure/gen/cbj_hub_server/protoc_as_dart/cbj_hub_server.pbgrpc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_remote-pipes/lib/infrastructure/gen/cbj_hub_server/protoc_as_dart/cbj_hub_server.pbgrpc.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_remote-pipes/lib/infrastructure/gen/cbj_hub_server/protoc_as_dart/cbj_hub_server.pbjson.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_remote-pipes/lib/infrastructure/gen/cbj_hub_server/protoc_as_dart/cbj_hub_server.pbjson.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_remote-pipes/lib/infrastructure/hube_server/smart_server_u.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_remote-pipes/lib/infrastructure/hube_server/smart_server_u.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_remote-pipes/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_remote-pipes/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_smart-device" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_smart-device" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_smart-device/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_smart-device/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_smart-device/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_smart-device/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/remote_pipes_routing" beforeDir="false" afterPath="$PROJECT_DIR$/remote_pipes_routing" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/remote_pipes_routing/lib/infrastructure/gen/cbj_hub_server/proto_gen_date.dart" beforeDir="false" afterPath="$PROJECT_DIR$/remote_pipes_routing/lib/infrastructure/gen/cbj_hub_server/proto_gen_date.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/remote_pipes_routing/lib/infrastructure/gen/cbj_hub_server/protoc_as_dart/cbj_hub_server.pb.dart" beforeDir="false" afterPath="$PROJECT_DIR$/remote_pipes_routing/lib/infrastructure/gen/cbj_hub_server/protoc_as_dart/cbj_hub_server.pb.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/remote_pipes_routing/lib/infrastructure/gen/cbj_hub_server/protoc_as_dart/cbj_hub_server.pbenum.dart" beforeDir="false" afterPath="$PROJECT_DIR$/remote_pipes_routing/lib/infrastructure/gen/cbj_hub_server/protoc_as_dart/cbj_hub_server.pbenum.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/remote_pipes_routing/lib/infrastructure/gen/cbj_hub_server/protoc_as_dart/cbj_hub_server.pbgrpc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/remote_pipes_routing/lib/infrastructure/gen/cbj_hub_server/protoc_as_dart/cbj_hub_server.pbgrpc.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/remote_pipes_routing/lib/infrastructure/gen/cbj_hub_server/protoc_as_dart/cbj_hub_server.pbjson.dart" beforeDir="false" afterPath="$PROJECT_DIR$/remote_pipes_routing/lib/infrastructure/gen/cbj_hub_server/protoc_as_dart/cbj_hub_server.pbjson.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/remote_pipes_routing/lib/infrastructure/hub_client/remote_pipes_client.dart" beforeDir="false" afterPath="$PROJECT_DIR$/remote_pipes_routing/lib/infrastructure/hub_client/remote_pipes_client.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/remote_pipes_routing/lib/infrastructure/hube_server/smart_server_u.dart" beforeDir="false" afterPath="$PROJECT_DIR$/remote_pipes_routing/lib/infrastructure/hube_server/smart_server_u.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/remote_pipes_routing/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/remote_pipes_routing/pubspec.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security_bear" beforeDir="false" afterPath="$PROJECT_DIR$/security_bear" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security_bear/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/security_bear/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security_bear/lib/infrastructure/gen/cbj_app/proto_gen_date.dart" beforeDir="false" afterPath="$PROJECT_DIR$/security_bear/lib/infrastructure/gen/cbj_app/proto_gen_date.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security_bear/lib/infrastructure/gen/cbj_app/protoc_as_dart/cbj_app_connections.pb.dart" beforeDir="false" afterPath="$PROJECT_DIR$/security_bear/lib/infrastructure/gen/cbj_app/protoc_as_dart/cbj_app_connections.pb.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security_bear/lib/infrastructure/gen/cbj_app/protoc_as_dart/cbj_app_connections.pbenum.dart" beforeDir="false" afterPath="$PROJECT_DIR$/security_bear/lib/infrastructure/gen/cbj_app/protoc_as_dart/cbj_app_connections.pbenum.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security_bear/lib/infrastructure/gen/cbj_app/protoc_as_dart/cbj_app_connections.pbgrpc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/security_bear/lib/infrastructure/gen/cbj_app/protoc_as_dart/cbj_app_connections.pbgrpc.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security_bear/lib/infrastructure/gen/cbj_app/protoc_as_dart/cbj_app_connections.pbjson.dart" beforeDir="false" afterPath="$PROJECT_DIR$/security_bear/lib/infrastructure/gen/cbj_app/protoc_as_dart/cbj_app_connections.pbjson.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security_bear/lib/infrastructure/gen/security_bear_server_d/proto_gen_date.dart" beforeDir="false" afterPath="$PROJECT_DIR$/security_bear/lib/infrastructure/gen/security_bear_server_d/proto_gen_date.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security_bear/lib/infrastructure/gen/security_bear_server_d/protoc_as_dart/security_bear_connections.pb.dart" beforeDir="false" afterPath="$PROJECT_DIR$/security_bear/lib/infrastructure/gen/security_bear_server_d/protoc_as_dart/security_bear_connections.pb.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security_bear/lib/infrastructure/gen/security_bear_server_d/protoc_as_dart/security_bear_connections.pbenum.dart" beforeDir="false" afterPath="$PROJECT_DIR$/security_bear/lib/infrastructure/gen/security_bear_server_d/protoc_as_dart/security_bear_connections.pbenum.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security_bear/lib/infrastructure/gen/security_bear_server_d/protoc_as_dart/security_bear_connections.pbgrpc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/security_bear/lib/infrastructure/gen/security_bear_server_d/protoc_as_dart/security_bear_connections.pbgrpc.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security_bear/lib/infrastructure/gen/security_bear_server_d/protoc_as_dart/security_bear_connections.pbjson.dart" beforeDir="false" afterPath="$PROJECT_DIR$/security_bear/lib/infrastructure/gen/security_bear_server_d/protoc_as_dart/security_bear_connections.pbjson.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security_bear/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/security_bear/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cbj_smart_device_flutter" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_smart_device_flutter" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cbj_smart_device_flutter/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_smart_device_flutter/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,6 +80,7 @@
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/guyluz/Documents/git/cbj_smart-home&quot;,
     &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
 }</component>
@@ -494,7 +421,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679693177572</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Repos maintenance. Generated protoc">
+      <created>1700904799841</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1700904799841</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Adding cbj_integrations_controller and cbj_smart_device_flutter">
+      <created>1700904821075</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1700904821075</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -525,8 +466,6 @@
       <path value="$PROJECT_DIR$/Security-Bear" />
       <path value="$PROJECT_DIR$/CBJ_Smart-Device" />
     </ignored-roots>
-    <MESSAGE value="Added support to get CompInfo like protoLastGenDate and pubspecYamlVersion" />
-    <MESSAGE value="Changed methods naming to reduce conflicts" />
     <MESSAGE value="Change proto_gen_date.txt into dart files for easy import in all of the software" />
     <MESSAGE value="Added compIp value for comp info in proto files" />
     <MESSAGE value="Added pubspec build number filed in comp info messages" />
@@ -550,7 +489,9 @@
     <MESSAGE value="Added to Hub proto DeviceActions open and close" />
     <MESSAGE value="Added DeviceTypes to hub emptyDevice and pingDevice, changed TypeNotSupported to smartTypeNotSupported" />
     <MESSAGE value="Changed proto script to use entity instead of device. Added some new devices types and some new vendors" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed proto script to use entity instead of device. Added some new devices types and some new vendors" />
+    <MESSAGE value="Repos maintenance. Generated protoc" />
+    <MESSAGE value="Adding cbj_integrations_controller and cbj_smart_device_flutter" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding cbj_integrations_controller and cbj_smart_device_flutter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

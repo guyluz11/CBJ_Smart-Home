@@ -7,6 +7,7 @@
     <mapping directory="$PROJECT_DIR$/cbj_integrations_controller" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/cbj_remote-pipes" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/cbj_smart-device" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/cbj_smart_device_flutter" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/remote_pipes_routing" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/security_bear" vcs="Git" />
   </component>

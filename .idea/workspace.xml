@@ -5,32 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dda0a42f-ac78-4d03-8b58-4d5dc9aa01fb" name="Default Changelist" comment="Adding cbj_integrations_controller and cbj_smart_device_flutter">
-      <change beforePath="$PROJECT_DIR$/.idea/cbj_smart-home.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cbj_smart-home.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProtoFiles/protos/cbj_hub_server.proto" beforeDir="false" afterPath="$PROJECT_DIR$/ProtoFiles/protos/cbj_hub_server.proto" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProtoFiles/protos/cbj_smart_device_server.proto" beforeDir="false" afterPath="$PROJECT_DIR$/ProtoFiles/protos/cbj_smart_device_server.proto" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cbj_app" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_app" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cbj_hub" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_hub" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_hub/lib/infrastructure/app_communication/app_communication_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_hub/lib/infrastructure/app_communication/app_communication_repository.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_hub/lib/infrastructure/cbj_web_server_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_hub/lib/infrastructure/cbj_web_server_repository.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_hub/lib/infrastructure/mqtt_server_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_hub/lib/infrastructure/mqtt_server_repository.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cbj_integrations_controller" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/domain/vendors/esphome_login/generic_esphome_login_entity.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/domain/vendors/esphome_login/generic_esphome_login_entity.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/domain/vendors/login_abstract/value_login_objects_core.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/domain/vendors/login_abstract/value_login_objects_core.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/generic_entities/abstract_entity/device_entity_base.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/infrastructure/generic_entities/abstract_entity/device_entity_base.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/domain/area/area_entity.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/domain/area/area_entity.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/domain/area/area_entity.freezed.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cbj_remote-pipes" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_remote-pipes" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cbj_smart-device" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_smart-device" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_smart-device/bin/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_smart-device/bin/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_smart-device/lib/application/usecases/core_u/smart_device_manager_u.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_smart-device/lib/application/usecases/core_u/smart_device_manager_u.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_smart-device/lib/application/usecases/smart_device_objects_u/abstracts_devices/smart_device_base.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_smart-device/lib/application/usecases/smart_device_objects_u/abstracts_devices/smart_device_base.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_smart-device/lib/application/usecases/wish_classes_u/on_wish_u.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_smart-device/lib/application/usecases/wish_classes_u/on_wish_u.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_smart-device/lib/infrastructure/datasources/core_d/manage_physical_components/device_pin_manager.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_smart-device/lib/infrastructure/datasources/core_d/manage_physical_components/device_pin_manager.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_smart_device_flutter" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_smart_device_flutter" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security_bear" beforeDir="false" afterPath="$PROJECT_DIR$/security_bear" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security_bear/.idea/SmartHome.iml" beforeDir="false" afterPath="$PROJECT_DIR$/security_bear/.idea/SmartHome.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security_bear/lib/features/security_bear/application/usecases/core_u/security_bear_manager.dart" beforeDir="false" afterPath="$PROJECT_DIR$/security_bear/lib/features/security_bear/application/usecases/core_u/security_bear_manager.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/security_bear/lib/features/security_bear/application/usecases/network_actions/network_actions.dart" beforeDir="false" afterPath="$PROJECT_DIR$/security_bear/lib/features/security_bear/application/usecases/network_actions/network_actions.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/melos.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/tools/melos.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remote_pipes_routing" beforeDir="false" afterPath="$PROJECT_DIR$/remote_pipes_routing" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,23 +81,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "com.google.services.firebase.aqiPopupShown": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "changing__grpc",
-    "last_opened_file_path": "/home/guyluz/Documents/git/srulik",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;com.google.services.firebase.aqiPopupShown&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;changing__grpc&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/guyluz/Documents/git/srulik&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/cbj_app/lib/presentation/device_full_screen_page" />
       <recent name="$PROJECT_DIR$/cbj_app/lib/application" />
-      <recent name="$PROJECT_DIR$/cbj_app/lib/presentation/home_page/tabs/smart_devices_tab/devices_in_the_room_blocks" />
+      <recent name="$PROJECT_DIR$/cbj_app/lib/presentation/home_page/tabs/smart_devices_tab/devices_in_the_area_blocks" />
       <recent name="$PROJECT_DIR$/cbj_app/lib/infrastructure/generic_devices" />
       <recent name="$PROJECT_DIR$/cbj_app/lib/domain/devices" />
     </key>
@@ -298,7 +283,7 @@
       <option name="project" value="LOCAL" />
       <updated>1637931815107</updated>
     </task>
-    <task id="LOCAL-00019" summary="Added room type to Hub protoc SendingType">
+    <task id="LOCAL-00019" summary="Added area type to Hub protoc SendingType">
       <created>1638783819326</created>
       <option name="number" value="00019" />
       <option name="presentableId" value="LOCAL-00019" />
@@ -504,7 +489,7 @@
     <MESSAGE value="Added compIp value for comp info in proto files" />
     <MESSAGE value="Added pubspec build number filed in comp info messages" />
     <MESSAGE value="Add to protoc software info dart sdk version field" />
-    <MESSAGE value="Added room type to Hub protoc SendingType" />
+    <MESSAGE value="Added area type to Hub protoc SendingType" />
     <MESSAGE value="Added couple of new vendors to vendor list. Added AreaPurposesTypes enum" />
     <MESSAGE value="Added more device types" />
     <MESSAGE value="Added new to hub server proto new types for DeviceActions, WhenToExecute, DeviceTypes, VendorsAndServices, DeviceStateGRPC." />
@@ -546,17 +531,17 @@
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
-          <url>file://$PROJECT_DIR$/cbj_app/lib/presentation/device_full_screen_page/smart_computers/widgets/room_smart_computers.dart</url>
+          <url>file://$PROJECT_DIR$/cbj_app/lib/presentation/device_full_screen_page/smart_computers/widgets/area_smart_computers.dart</url>
           <line>37</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
-          <url>file://$PROJECT_DIR$/cbj_app/lib/presentation/device_full_screen_page/smart_computers/widgets/room_smart_computers.dart</url>
+          <url>file://$PROJECT_DIR$/cbj_app/lib/presentation/device_full_screen_page/smart_computers/widgets/area_smart_computers.dart</url>
           <line>107</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
-          <url>file://$PROJECT_DIR$/cbj_app/lib/presentation/device_full_screen_page/smart_computers/widgets/room_smart_computers.dart</url>
+          <url>file://$PROJECT_DIR$/cbj_app/lib/presentation/device_full_screen_page/smart_computers/widgets/area_smart_computers.dart</url>
           <line>167</line>
           <option name="timeStamp" value="33" />
         </line-breakpoint>

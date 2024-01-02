@@ -55,39 +55,39 @@ enum SendingType {
   getHubEntityInfo = 12;
   /// Response that contains entity and software info like proto file version
   responseHubEntityInfo = 13;
-  /// Response that contains room object
-  roomType = 14;
+  /// Response that contains area object
+  areaType = 14;
   /// Sending location of entity
   location = 15;
 }
 
 /// List of purposes that each area in the home can have
 enum AreaPurposesTypes {
-  bedroom = 0;
-  studyRoom = 1;
-  workRoom = 2;
-  tvRoom = 3;
+  bedarea = 0;
+  studyArea = 1;
+  workArea = 2;
+  tvArea = 3;
   videoGames = 4;
-  livingRoom = 5;
-  diningRoom = 6;
+  livingArea = 5;
+  diningArea = 6;
   kitchen = 7;
   outside = 8;
   outsidePrimary = 9;
   outsideNotPrimary = 10;
-  toiletRoom = 11;
+  toiletArea = 11;
   shower = 12;
-  trainingRoom = 13;
+  trainingArea = 13;
   meditation = 14;
   romantic = 15;
   stairsInside = 16;
   stairsOutside = 17;
-  childrenRoom = 18;
-  cinemaRoom = 19;
+  childrenArea = 18;
+  cinemaArea = 19;
   boardGames = 20;
   bathtub = 21;
-  laundryRoom = 22;
+  laundryArea = 22;
   protectedSpace = 23;
-  safeRoom = 24;
+  safeArea = 24;
   attic = 25;
   holidayCabin = 26;
 }
@@ -142,7 +142,7 @@ message SmartEntityInfo {
   string id = 1;
   string state = 3;
   string defaultName = 14;
-  string roomId = 15;
+  string areaId = 15;
   string senderDeviceModel = 16;
   string senderDeviceOs = 17;
   string senderId = 18;

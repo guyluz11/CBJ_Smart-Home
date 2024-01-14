@@ -23,82 +23,14 @@ service CbjHub {
   rpc getCompHubInfo(CompHubInfo) returns (CompHubInfo);
 }
 
-/// Being added to send data for explain the type that was sent
-enum SendingType {
-  /// Not sure what we sent or got
-  undefinedType = 0;
-  /// String without any structure
-  stringType = 1;
-  /// Partial entity data in the form of json
-  partialEntityType = 2;
-  /// Entity object in the form of json
-  entityType = 3;
-  /// Sending mqtt massage
-  mqttMassageType = 4;
-  /// Scenes
-  sceneType = 5;
-  /// Schedule
-  scheduleType = 6;
-  /// Routine
-  routineType = 7;
-  /// Bindings
-  bindingsType = 8;
-  /// Type for login into other vendors
-  vendorLoginType = 9;
-  /// First connection, for sending first connection info like all entities
-  /// status and more
-  firstConnection = 10;
-  /// Remote Pipes Domain information
-  remotePipesInformation = 11;
-  /// Request to get the entity and software info like proto file version and
-  /// more
-  getHubEntityInfo = 12;
-  /// Response that contains entity and software info like proto file version
-  responseHubEntityInfo = 13;
-  /// Response that contains area object
-  areaType = 14;
-  /// Sending location of entity
-  location = 15;
-}
-
-/// List of purposes that each area in the home can have
-enum AreaPurposesTypes {
-  bedarea = 0;
-  studyArea = 1;
-  workArea = 2;
-  tvArea = 3;
-  videoGames = 4;
-  livingArea = 5;
-  diningArea = 6;
-  kitchen = 7;
-  outside = 8;
-  outsidePrimary = 9;
-  outsideNotPrimary = 10;
-  toiletArea = 11;
-  shower = 12;
-  trainingArea = 13;
-  meditation = 14;
-  romantic = 15;
-  stairsInside = 16;
-  stairsOutside = 17;
-  childrenArea = 18;
-  cinemaArea = 19;
-  boardGames = 20;
-  bathtub = 21;
-  laundryArea = 22;
-  protectedSpace = 23;
-  safeArea = 24;
-  attic = 25;
-  holidayCabin = 26;
-}
 
 message ClientStatusRequests {
-  SendingType sendingType = 41;
+  string sendingType = 41;
   string allRemoteCommands = 42;
 }
 
 message RequestsAndStatusFromHub {
-  SendingType sendingType = 43;
+  string sendingType = 43;
   string allRemoteCommands = 44;
 }
 

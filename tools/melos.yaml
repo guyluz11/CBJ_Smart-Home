@@ -16,6 +16,7 @@ dependencyOverridePaths:
   - "../cbj_integrations_controller"
   - "../cbj_smart-device"
   - "../cbj_smart_device_flutter"
+  - "../security_bear"
 
 command:
   bootstrap:

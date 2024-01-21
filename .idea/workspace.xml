@@ -6,32 +6,14 @@
   <component name="ChangeListManager">
     <list default="true" id="dda0a42f-ac78-4d03-8b58-4d5dc9aa01fb" name="Default Changelist" comment="Adding cbj_integrations_controller and cbj_smart_device_flutter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cbj_app" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_app" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cbj_app/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_app/android/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_app/lib/domain/connections_service.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_app/lib/domain/connections_service.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_app/lib/domain/i_hub_connection_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_app/lib/domain/i_hub_connection_repository.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_app/lib/infrastructure/connection_service/app_connection_service.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_app/lib/infrastructure/connection_service/app_connection_service.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_app/lib/infrastructure/connection_service/demo_connection_service.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_app/lib/infrastructure/connection_service/demo_connection_service.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_app/lib/infrastructure/connection_service/none_connection_service.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_app/lib/infrastructure/connection_service/none_connection_service.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_app/lib/infrastructure/hub_client/hub_connection_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_app/lib/infrastructure/hub_client/hub_connection_repository.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_app/lib/presentation/core/routes/app_router.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_app/lib/presentation/core/routes/app_router.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_app/lib/presentation/pages/add_new_devices_process/computer_connection_check/widgets/computer_connection_check_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_app/lib/presentation/pages/add_new_devices_process/computer_connection_check/widgets/computer_connection_check_widget.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_app/lib/presentation/pages/add_new_devices_process/configure_new_cbj_comp/widgets/configure_new_cbj_comp_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_app/lib/presentation/pages/add_new_devices_process/configure_new_cbj_comp/widgets/configure_new_cbj_comp_widget.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_app/lib/presentation/pages/home_page/home_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_app/lib/presentation/pages/home_page/home_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_app/lib/presentation/pages/plus_button.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_app/lib/presentation/pages/plus_button.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cbj_hub" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_hub" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_hub/lib/infrastructure/app_communication/app_communication_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_hub/lib/infrastructure/app_communication/app_communication_repository.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cbj_hub/lib/infrastructure/hub_server/hub_server_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_hub/lib/infrastructure/hub_server/hub_server_controller.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cbj_hub/lib/infrastructure/remote_pipes_client.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_hub/lib/infrastructure/remote_pipes_client.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/integrations_controller.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/integrations_controller.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/src/domain/i_app_communication_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/src/domain/i_app_communication_repository.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/src/infrastructure/devices/cbj_devices/cbj_devices_connector_conjecture.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/src/infrastructure/devices/cbj_devices/cbj_devices_connector_conjecture.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/src/infrastructure/devices/cbj_devices/cbj_devices_helpers.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/src/infrastructure/devices/cbj_devices/cbj_devices_helpers.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/src/infrastructure/devices/cbj_devices/cbj_smart_device_client/cbj_smart_device_client.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/src/infrastructure/devices/cbj_devices/cbj_smart_device_client/cbj_smart_device_client.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/src/infrastructure/devices/device_helper/device_helper_methods.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/src/infrastructure/devices/device_helper/device_helper_methods.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/src/infrastructure/devices/esphome/esphome_api/esphome_api_client.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/src/infrastructure/devices/esphome/esphome_api/esphome_api_client.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/src/infrastructure/devices/hp/hp_helpers.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/src/infrastructure/devices/hp/hp_helpers.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/src/infrastructure/hub_client/hub_client.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/src/infrastructure/hub_client/hub_client.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/src/infrastructure/hub_client/hub_client_demo.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/src/infrastructure/hub_client/hub_client_demo.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller/lib/src/infrastructure/vendors_connector_conjecture.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller/lib/src/infrastructure/vendors_connector_conjecture.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cbj_integrations_controller" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_integrations_controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cbj_remote-pipes" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_remote-pipes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cbj_remote-pipes/lib/infrastructure/hube_server/smart_server_u.dart" beforeDir="false" afterPath="$PROJECT_DIR$/cbj_remote-pipes/lib/infrastructure/hube_server/smart_server_u.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +88,7 @@
     "com.google.services.firebase.aqiPopupShown": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "changing__grpc",
-    "last_opened_file_path": "/home/guyluz/Documents/git/srulik",
+    "last_opened_file_path": "/home/guyluz/Documents/git/cbj-kubernetes-files-1",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
@@ -579,7 +561,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
           <url>file://$PROJECT_DIR$/cbj_remote-pipes/lib/infrastructure/hube_server/smart_server_u.dart</url>
-          <line>18</line>
+          <line>30</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="Dart">

@@ -66,11 +66,6 @@ rm -r ../cbj_remote-pipes/lib/infrastructure/gen/cbj_hub_server/protoc_as_dart
 cp -r -p protoc_as_dart/ ../cbj_remote-pipes/lib/infrastructure/gen/cbj_hub_server/	#   # copy to Remote-Pipes protoc folder
 date +"const hubServerProtocGenDate = '%d/%m/%y';">../cbj_remote-pipes/lib/infrastructure/gen/cbj_hub_server/proto_gen_date.dart
 
-rm -r ../remote_pipes_routing/lib/infrastructure/gen/cbj_hub_server/protoc_as_dart
-cp -r -p protoc_as_dart/ ../remote_pipes_routing/lib/infrastructure/gen/cbj_hub_server/	#   # copy to Remote-Pipes Routing protoc folder
-date +"const hubServerProtocGenDate = '%d/%m/%y';">../remote_pipes_routing/lib/infrastructure/gen/cbj_hub_server/proto_gen_date.dart
-
-
 rm -r ../cbj_integrations_controller/lib/src/infrastructure/gen/cbj_hub_server/protoc_as_dart
 cp -r -p protoc_as_dart/ ../cbj_integrations_controller/lib/src/infrastructure/gen/cbj_hub_server/	#   # copy to Integration controller protoc folder
 date +"const hubServerProtocGenDate = '%d/%m/%y';">../cbj_integrations_controller/lib/src/infrastructure/gen/cbj_hub_server/proto_gen_date.dart
